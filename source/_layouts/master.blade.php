@@ -75,7 +75,7 @@
                 </li>
 
                 <li>
-                    Built by <a href="https://bitclout.com/u/mubahariqbal" title="mubahariqbal">@mubahariqbal</a>
+                    Built by <a href="https://bitclout.com/u/mubashariqbal" title="mubashariqbal">@mubashariqbal</a>
                     Written by <a href="https://bitclout.com/u/darian_parrish" title="darian_parrish">@darian_parrish</a>
                         <a href="https://bitclout.com/u/scottco" title="scottco">@scottco</a>
                         & <a href="https://bitclout.com/u/dripcult" title="dripcult">@dripcult</a>.
