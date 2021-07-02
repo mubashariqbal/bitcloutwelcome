@@ -31,7 +31,7 @@
             <!-- Insert analytics code here -->
         @endif
 
-        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Space+Grotesk:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 
         @if ($page->docsearchApiKey && $page->docsearchIndexName)
@@ -39,21 +39,24 @@
         @endif
     </head>
 
-    <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
-        <header class="flex items-center shadow bg-white border-b h-24 mb-8 py-4" role="banner">
+    <body class="flex flex-col justify-between min-h-screen bg-white text-gray-800 leading-normal font-sans">
+        <header class="flex items-center mb-8" role="banner">
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
+                <div class="flex w-full border-b border-gray-800 py-4">
                 <div class="flex items-center">
                     <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
-                        <img class="h-8 md:h-12 mr-3" src="/assets/img/logo.svg" alt="{{ $page->siteName }} logo" />
+                        <img class="h-10 md:h-12 mr-3" src="/assets/img/avatar.svg" alt="{{ $page->siteName }} logo" />
 
-                        <h1 class="text-lg md:text-2xl text-blue-900 font-semibold hover:text-blue-600 my-0 pr-4">{{ $page->siteName }}</h1>
+                        <h1 class="text-lg md:text-xl text-blue-900 font-semibold hover:text-blue-600 my-0 pr-4">{{ $page->siteName }}</h1>
                     </a>
                 </div>
 
                 <div class="flex flex-1 justify-end items-center text-right md:pl-10">
+                    Built by <a class=" text-indigo-600 ml-1" target="_blank" href="https://bitclout.com/u/mubashariqbal">@mubashariqbal</a>
                     {{-- @if ($page->docsearchApiKey && $page->docsearchIndexName)
                         @include('_nav.search-input')
                     @endif --}}
+                </div>
                 </div>
             </div>
 
@@ -75,10 +78,10 @@
                 </li>
 
                 <li>
-                    Built by <a href="https://bitclout.com/u/mubashariqbal" title="mubashariqbal">@mubashariqbal</a>
-                    Written by <a href="https://bitclout.com/u/darian_parrish" title="darian_parrish">@darian_parrish</a>
-                        <a href="https://bitclout.com/u/scottco" title="scottco">@scottco</a>
-                        & <a href="https://bitclout.com/u/dripcult" title="dripcult">@dripcult</a>.
+                    Built by <a class=" text-indigo-600" href="https://bitclout.com/u/mubashariqbal" title="mubashariqbal">@mubashariqbal</a>
+                    Written by <a class=" text-indigo-600" href="https://bitclout.com/u/darian_parrish" title="darian_parrish">@darian_parrish</a>
+                        <a class=" text-indigo-600" href="https://bitclout.com/u/scottco" title="scottco">@scottco</a>
+                        & <a class=" text-indigo-600" href="https://bitclout.com/u/dripcult" title="dripcult">@dripcult</a>.
                 </li>
             </ul>
         </footer>

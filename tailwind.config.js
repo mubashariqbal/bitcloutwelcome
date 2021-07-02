@@ -19,7 +19,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: [
-          'Nunito Sans'
+          'Space Grotesk'
         ],
         mono: [
           'monospace',
@@ -52,7 +52,10 @@ module.exports = {
       '3xl': '1.75rem',
       '4xl': '2.125rem',
       '5xl': '2.625rem',
-      '6xl': '10rem',
+      '6xl': '3rem',
+      '7xl': '4.5rem',
+      '8xl': '6rem',
+      // '6xl': '10rem',
     },
   },
   variants: {
